@@ -1,0 +1,27 @@
+table,th,td{
+	border:5px solid blue;
+	border-collapse:collapse;
+	
+}
+table{
+	width:100%;
+
+}
+th{
+	font-size:50px;
+	background-color:#00800052;
+}
+td{
+	font-size:30px;
+	text-align:center;
+	background-color:#ffff0054;
+}
+th,td{
+	padding:20px 30px;
+}
+td:hover{
+	color:red;
+	background-color:aqua;
+	border-radius:30%;
+	font-size:50px;
+}
